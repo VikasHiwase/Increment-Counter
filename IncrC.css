@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background: rgb(69, 43, 70);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction:row;
+     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+} 
+
+div span{
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+}
+
+div .counter{
+    color: gold;
+    padding: 13px 98px;
+    font-size: 30px;
+}
+
+span{
+    color: white;
+}
+
+
+i{
+    margin: 10px 100px;
+    filter: invert(1);
+} 
+
+.counter{
+    display: grid;
+    place-items: center;
+}
+
+.fa-3x {
+    font-size: 3em;
+    padding: 3px 20px;
+}
